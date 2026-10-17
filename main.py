@@ -15,7 +15,7 @@ TIKTOK_URL = os.getenv(
 
 # دعم المفتاح المخفي YOUTUBE_STREAM_KEY أو الرابط المباشر YOUTUBE_RTMP
 STREAM_KEY = os.getenv("YOUTUBE_STREAM_KEY", "").strip()
-DEFAULT_RTMP = f"rtmp://a.rtmp.youtube.com/live2/{STREAM_KEY}" if STREAM_KEY else "rtmp://a.rtmp.youtube.com/live2/43wg-ubwg-3wea-ezd4-7wj1"
+DEFAULT_RTMP = f"rtmp://a.rtmp.youtube.com/live2/{STREAM_KEY}" if STREAM_KEY else "rtmp://a.rtmp.youtube.com/live2/fpux-ct7x-3v01-ag0m-bzff"
 
 YOUTUBE_RTMP = os.getenv("YOUTUBE_RTMP", DEFAULT_RTMP).strip()
 
